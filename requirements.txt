@@ -1,0 +1,18 @@
+streamlit==1.16.0
+scikit-learn==1.2.0
+seaborn==0.12.1
+seaborn @ file:///tmp/build/80754af9/seaborn_1629307859561/work
+numpy @ file:///C:/ci/numpy_and_numpy_base_1649782970434/work
+numpydoc @ file:///opt/conda/conda-bld/numpydoc_1643788541039/work
+numpy @ file:///C:/ci/numpy_and_numpy_base_1653574840943/work
+matplotlib==3.5.3
+matplotlib @ file:///C:/ci/matplotlib-suite_1647423638658/work
+matplotlib-inline @ file:///tmp/build/80754af9/matplotlib-inline_1628242447089/work
+pandas @ file:///C:/ci/pandas_1650373458095/work
+pandas @ file:///C:/ci/pandas_1641461312795/work
+pandas-profiling==3.2.0
+pickle-mixin==1.0.2
+pickle5==0.0.12
+scikit-learn==1.0.2
+
+
