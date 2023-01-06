@@ -36,7 +36,7 @@ st.subheader('User Input parameters')
 st.write(df)
 
 # load the model from disk
-model = load(open("C:/Users/VivekG/Desktop/My Files- Vivek/ExcelrThane/DS/DS Project/bank.pkl", 'rb'))
+model = load(open("bank_cl.pkl", 'rb'))
 prediction = model.predict(df)
 st.subheader('Predicted Result')
 st.subheader('Detected As')
