@@ -51,4 +51,3 @@ st.write('Bankruptcy Detected' if prediction ==1.0 else 'Non-Bankruptcy Detected
 
 
 
-
