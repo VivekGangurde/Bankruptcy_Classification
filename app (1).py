@@ -7,6 +7,7 @@
 import pandas as pd
 import streamlit as st
 import numpy as np
+import pickle
 from sklearn.naive_bayes import GaussianNB
 from pickle import dump
 from pickle import load
