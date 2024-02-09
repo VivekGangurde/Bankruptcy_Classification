@@ -7,6 +7,9 @@ import numpy as np
 from sklearn import svm
 from pickle import dump
 from pickle import load
+from PIL import Image
+
+
 
 
 st.title(':black[Bankruptcy-Detection]')
@@ -33,7 +36,7 @@ st.subheader('User Input parameters')
 st.write(df)
 
 # load the model from disk
-model = load(open("C:\\Users\\VivekG\\Desktop\\My Files- Vivek\\ExcelrThane\\DS\\DS Project\\Project Bankruptcy\\test.pkl", 'rb'))
+model = load(open("test.pkl", "rb"))
 prediction = model.predict(df)
 st.subheader('Predicted Result')
 st.subheader('Detected As')
