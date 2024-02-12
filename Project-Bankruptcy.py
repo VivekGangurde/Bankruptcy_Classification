@@ -7,7 +7,6 @@ import numpy as np
 from sklearn import svm
 from pickle import dump
 from pickle import load
-from PIL import Image
 
 
 
